@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:text="GPS Location" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Logitude and Latitude" />
+
+    <TextView
+        android:id="@+id/lola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textSize="20dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="GPS Location Address" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:textSize="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/getLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET LOCATION"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:textSize="25dp"/>
+
+</RelativeLayout>
