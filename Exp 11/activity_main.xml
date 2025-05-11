@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvNetworkOperatorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network Operator Name" />
+    <EditText
+        android:id="@+id/etNetworkOperatorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvPhoneType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Type" />
+    <EditText
+        android:id="@+id/etPhoneType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvNetworkCountryISO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network Country ISO" />
+    <EditText
+        android:id="@+id/etNetworkCountryISO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvSIMCountryISO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIM Country ISO" />
+    <EditText
+        android:id="@+id/etSIMCountryISO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvDeviceSoftwareVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Software Version" />
+    <EditText
+        android:id="@+id/etDeviceSoftwareVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/btGetTelephonyServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Telephony Services"
+        android:textAllCaps="false" />
+</LinearLayout>
