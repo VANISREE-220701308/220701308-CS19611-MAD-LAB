@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StudentMarkActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Details"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#047EFA"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark 1      :"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="95"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/m1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark 2       :"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="92"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/m2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark 3       :"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="91"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/m3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total       :"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="278"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/tot"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade       :"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/grade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result       :"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pass"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/res"/>
+
+
+
+
+
+</FrameLayout>
