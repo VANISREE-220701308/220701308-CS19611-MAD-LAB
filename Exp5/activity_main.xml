@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="100dp"
+        android:text="Enter Regno:"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="200dp"
+        android:layout_y="100dp"
+        android:hint="Regno"
+        android:textSize="25dp"
+        android:id="@+id/regno"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="150dp"
+        android:text="Enter Name:"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="200dp"
+        android:layout_y="150dp"
+        android:hint="Name"
+        android:textSize="25dp"
+        android:id="@+id/name"/>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="200dp"
+        android:text="Enter CGPA:"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="200dp"
+        android:layout_y="200dp"
+        android:hint="CGPA"
+        android:textSize="25dp"
+        android:id="@+id/cgpa"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="15dp"
+        android:layout_y="300dp"
+        android:text="INSERT"
+        android:textSize="21dp"
+        android:id="@+id/insert"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="147dp"
+        android:layout_y="300dp"
+        android:text="UPDATE"
+        android:textSize="19dp"
+        android:id="@+id/update"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="279dp"
+        android:layout_y="300dp"
+        android:text="DELETE"
+        android:textSize="20dp"
+        android:id="@+id/delete"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="50dp"
+        android:layout_y="370dp"
+        android:text="VIEW"
+        android:textSize="21dp"
+        android:id="@+id/view"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_x="220dp"
+        android:layout_y="370dp"
+        android:text="VIEWALL"
+        android:textSize="16dp"
+        android:id="@+id/viewall"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="452dp"
+        android:text=""
+        android:textSize="25dp" />
+
+</AbsoluteLayout>
