@@ -6,6 +6,7 @@ App**
 
 
 **📌 Project Overview**:
+
 LUSHLANE is a modern mobile shopping app built using Kotlin to deliver a seamless and personalized experience for fashion and lifestyle shoppers. It aims to overcome limitations seen in many e-commerce applications such as poor personalization, inefficient search, and high cart abandonment rates.
 
 By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room for persistent storage, this app ensures fast performance, offline support, and a refined user experience tailored to individual preferences.
@@ -13,6 +14,7 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 **🎯 Key Features**:
+
 ✅ Modern UI/UX Design
 1.Built using Jetpack Compose for clean and responsive layouts
 2.Tailored recommendations and smooth navigation
@@ -48,6 +50,7 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 **🛠️ Development Approach**:
+
 1.Methodology: Agile and Iterative
 2.Continuous integration with regular testing and refinements
 3.Modular architecture for easier scaling and maintenance
@@ -77,12 +80,14 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 **📸 Sample Output & API Integration**
+
 1.Sample API response delivers product listings in JSON format.
 2.Images, names, prices, and categories dynamically populate UI.
 3.Offline caching enables browsing without internet.
 
 
 **📈 Project Timeline & Cost**
+
 1.Development Time    : ~6 Months
 2.Estimated Cost      : $50,000 – $75,000 (includes testing, deployment)
 3.APK Types           : Debug and Release
@@ -90,6 +95,7 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 **🚀 Future Enhancements**
+
 🔮 AR/VR Try-On Features
 🤖 AI Styling Assistant (Chatbot)
 🛒 Expanded Categories & Brand Collaborations
@@ -97,6 +103,7 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 **🧠 Learning Highlights**
+
 1.ull mobile app lifecycle: planning → dev → testing → deployment
 2.End-to-end architecture using Jetpack libraries
 3.Practical use of Kotlin DSL, Retrofit, and Room
