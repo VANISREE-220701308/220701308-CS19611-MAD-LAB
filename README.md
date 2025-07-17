@@ -41,10 +41,15 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 **🧱 Tech Stack**:
 
 1.UI	Jetpack Compose
+
 2.Language	      :Kotlin
+
 3.Networking	    :Retrofit
+
 4.Local Database	:Room Persistence Library
+
 5.Architecture	  :MVVM + Coroutines
+
 6.Build System    :Gradle Kotlin DSL
 
 
@@ -52,7 +57,9 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 **🛠️ Development Approach**:
 
 1.Methodology: Agile and Iterative
+
 2.Continuous integration with regular testing and refinements
+
 3.Modular architecture for easier scaling and maintenance
 
 
@@ -61,11 +68,17 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 **/lushlane-app**
 │
 ├── ui/                    → Compose-based UI components
+
 ├── data/                  → Models, Room DAO, DB setup
+
 ├── network/               → Retrofit API interfaces
+
 ├── viewmodel/             → Business logic and LiveData
+
 ├── gradle.properties      → Versioning and keys
+
 ├── build.gradle.kts       → Kotlin-based Gradle configuration
+
 └── apk/                   → Debug & Release builds
 
 
@@ -73,43 +86,60 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 
 1.git clone https://github.com/your-username/lushlane-app.git
+
 2.Open in Android Studio Arctic Fox or newer.
+
 3.Configure API keys in gradle.properties.
+
 4.Build APK (debug/release) using Gradle toolbar or command line.
+
 5.Run on emulator or real Android device (API 24+ recommended).
 
 
 **📸 Sample Output & API Integration**
 
 1.Sample API response delivers product listings in JSON format.
+
 2.Images, names, prices, and categories dynamically populate UI.
+
 3.Offline caching enables browsing without internet.
 
 
 **📈 Project Timeline & Cost**
 
 1.Development Time    : ~6 Months
+
 2.Estimated Cost      : $50,000 – $75,000 (includes testing, deployment)
+
 3.APK Types           : Debug and Release
+
 4.Gradle Configuration: Includes versioning, API key management
 
 
 **🚀 Future Enhancements**
 
 🔮 AR/VR Try-On Features
+
 🤖 AI Styling Assistant (Chatbot)
+
 🛒 Expanded Categories & Brand Collaborations
+
 📱 iOS Version using Kotlin Multiplatform (Future Roadmap)
 
 
 **🧠 Learning Highlights**
 
 1.ull mobile app lifecycle: planning → dev → testing → deployment
+
 2.End-to-end architecture using Jetpack libraries
+
 3.Practical use of Kotlin DSL, Retrofit, and Room
+
 4.Focus on clean UI/UX and user personalization
 
 
 **👤 Author**
+
 Vanisree S.J (220701308)
+
 📧 Contact for collaboration or queries via GitHub
