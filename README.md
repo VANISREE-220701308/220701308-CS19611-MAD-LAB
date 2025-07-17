@@ -66,7 +66,9 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 **📂 Folder Highlights**
 
 **/lushlane-app**
+
 │
+
 ├── ui/                    → Compose-based UI components
 
 ├── data/                  → Models, Room DAO, DB setup
@@ -129,7 +131,7 @@ By leveraging Jetpack Compose for UI, Retrofit for network handling, and Room fo
 
 **🧠 Learning Highlights**
 
-1.ull mobile app lifecycle: planning → dev → testing → deployment
+1. mobile app lifecycle: planning → dev → testing → deployment
 
 2.End-to-end architecture using Jetpack libraries
 
